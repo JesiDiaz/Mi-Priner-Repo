@@ -1,0 +1,36 @@
+/* Aqui van los estilos CSS de este proyecto */
+
+/* Aqui seleccionamos lo elementso en css.
+      simplemente debemos escribir el nombre de elemento 
+      y estos cambios se veran reflejados en todos los elementos
+      de este indole. */
+      body {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            background-color: aqua;
+            padding: 20px;
+            
+        }
+
+        ol {
+            padding: 5px;
+            margin: auto;
+        }
+
+        li {
+            font-size: small;
+        }
+
+        strong {
+            font-size: large;
+        }
+
+        .ordenado{
+            justify-items: auto;
+            
+            border: 2px solid black;
+            
+        }
+
+        .desorden{
+            border: 2px solid black;
+        }
